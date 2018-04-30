@@ -7,7 +7,7 @@
     "url": "git+https://github.com/avuxi/react-avapi.git"
   },
   "scripts": {
-    "build": "mkdir dist && babel src/index.js -o dist/index.js"
+    "build": "babel src --out-dir dist"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
