@@ -14,6 +14,9 @@ import { Map, Lse } from 'react-avapi'
 ```
 
 ```html
+<!-- include Google Maps or Leaflet script -->
+<!-- include configuration script from https://admin.avuxi.com -->
+
 <Map confId='5ae6df87a93f4e1e02a6122a'
      lat='41.38605'
      lng='2.17014'
